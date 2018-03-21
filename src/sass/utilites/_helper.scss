@@ -1,0 +1,8 @@
+//font classs
+@if variable-exists(font-sizes) {
+    @each $fonts in $font-sizes{
+      .fs#{$fonts}{
+        font-size: $fonts + px;
+      }
+    }
+}

@@ -1,0 +1,52 @@
+.container{
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  @include mq(md){
+    width: 750px;
+  }
+  @include mq(lg){
+    width: 960px;
+  }
+  @include mq(xl){
+    width: 1170px;
+  }
+}
+.row{
+  @include mq(md){
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+
+
+.w-50{
+  width: 100%;
+  @include mq(md){
+    width: 50%;
+  }
+}
+
+
+.w-40{
+  width: 100%;
+  @include mq(md){
+    width: 40%;
+  }
+}
+
+
+.w-60{
+  width: 100%;
+  @include mq(md){
+    width: 60%;
+  }
+}

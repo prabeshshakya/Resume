@@ -1,0 +1,30 @@
+//colors
+$danger: #ff003d;
+$pink: #D81B60;
+$grey: #37474F;
+$orange: #FF5722;
+$blue: #1E88E5;
+
+$main-text: $grey;
+
+//Font-size
+$base_font-size: 14px;
+$font-sizes: (10, 12, 14, 16, 18, 24, 32, 40, 50);
+
+//font-family
+$font-family: 'Montserrat', sans-serif;
+$font-family-sans-fallback: 'Arial', sans-serif;
+$font-family-sans: $font-family, 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', $font-family-sans-fallback;
+$font-family-serif: 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
+$font-family-monospace: 'Inconsolata', 'Menlo', 'Consolas', 'Bitstream Vera Sans Mono', 'Courier', monospace;
+$font-family--primary : $font-family-sans;
+$font-family--secondary : $font-family-sans;
+
+//Breakpoints
+$sm-device: 550px;
+$md-device: 767px;
+$lg-device: 992px;
+$xl-device: 1200px;
+
+//base z index
+$b-index: 10;
