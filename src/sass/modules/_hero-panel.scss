@@ -46,3 +46,26 @@
     color: white;
   }
 }
+
+.box{
+  position: relative;
+  &.box-blue{
+    &:before{
+      background-color: rgba($blue, 0.5);
+    }
+  }
+  &.box-red{
+    &:before{
+      background-color: rgba($danger, 0.5);
+    }
+  }
+  &:before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    width: 60px;
+    height: 60px;
+    top: -10px;
+    z-index: -1;
+  }
+}

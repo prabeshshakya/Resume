@@ -1946,3 +1946,18 @@ header {
   .btn-ghost:hover {
     background-color: #37474F;
     color: white; }
+
+.box {
+  position: relative; }
+  .box.box-blue:before {
+    background-color: rgba(30, 136, 229, 0.5); }
+  .box.box-red:before {
+    background-color: rgba(255, 0, 61, 0.5); }
+  .box:before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    width: 60px;
+    height: 60px;
+    top: -10px;
+    z-index: -1; }
